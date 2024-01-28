@@ -1,10 +1,50 @@
+# My Solar Website
+
+Welcome to my website! Here are some screenshots to give you a glimpse:
+
+## Homepage
+
+![Homepage](<public/assets/home page.PNG>)
+
+## About Page
+
+
+![About Page](public/assets/aboutusPage.PNG)
+![About Page Content](public/assets/aboutusContent.PNG)
+
+## Contact page
+
+![Contact Page](public/assets/ContactUsPage.PNG)
+
+## Project Page
+
+![Project Page](public/assets/ProjectPage.PNG)
+![Projects](public/assets/Projects.PNG)
+
+## Quote Page
+
+![Quote Page](public/assets/Quote.PNG)
+
+## Service Page
+
+![Service Page](public/assets/ServicePage.PNG)
+
+## Team
+
+![Team](public/assets/Team.PNG)
+
+## Footer
+
+![Footer](public/assets/footer.PNG)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the frontend directory, you can run:
 
 ### `npm start`
 
