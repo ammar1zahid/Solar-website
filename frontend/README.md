@@ -8,7 +8,6 @@ Welcome to my website! Here are some screenshots to give you a glimpse:
 
 ## About Page
 
-
 ![About Page](public/assets/aboutusPage.PNG)
 ![About Page Content](public/assets/aboutusContent.PNG)
 
@@ -36,6 +35,56 @@ Welcome to my website! Here are some screenshots to give you a glimpse:
 ## Footer
 
 ![Footer](public/assets/footer.PNG)
+
+
+
+
+
+## Key Features
+
+- **Bootstrap 5**: Leverages Bootstrap 5 framework for responsive and mobile-friendly layout.
+
+- **Google Web Font Support**: Integrates Google web fonts for a diverse range of typography options.
+
+- **Bootstrap Icon Font Support**: Takes advantage of Bootstrap's icon font for scalable and customizable icons.
+
+- **Clean and Well-Commented Code**: Maintains a codebase that is easy to understand, navigate, and modify.
+
+- **Developer and SEO-Friendly Code**: Follows best practices for developer experience and search engine optimization.
+
+- **Unique, Modern, and Flexible Layout**: Offers a distinctive and contemporary design with flexibility.
+
+- **Compatible with All Web Browsers**: Ensures a consistent experience across various browsers.
+
+- **Sticky and Mobile-Friendly Navbar**: Implements a sticky navigation bar that adapts well to mobile devices.
+
+- **Responsive Hero Header**: Features a responsive hero header section for an impactful visual introduction.
+
+- **Animation on Page Scrolling**: Incorporates animations to enhance the user experience while scrolling.
+
+- **Fun Fact Counter**: Includes a counter for displaying fun and engaging facts.
+
+- **Dropdown Menu Bar**: Implements a dropdown menu bar for organized navigation.
+
+- **Testimonial Carousel**: Utilizes a carousel to showcase testimonials dynamically.
+
+- **On-Hover Effects**: Enhances user interactivity with on-hover effects.
+
+- **Social Links with Icons**: Integrates social links accompanied by icon representations.
+
+- **“Back to Top” Button**: Provides a convenient button to navigate back to the top of the page.
+
+- **Contact Form UI**: Offers a user-friendly contact form for easy communication.
+
+- **Google Map**: Integrates Google Maps for location visualization.
+
+- **Quotation Form UI**: Features a quotation request form with a pleasing user interface.
+
+- **FontAwesome Icon Font**: Utilizes FontAwesome for a comprehensive collection of icons.
+
+
+
+### HOW TO RUN THIS APP
 
 
 # Getting Started with Create React App
