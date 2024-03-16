@@ -1,6 +1,47 @@
 import React from 'react'
+//import $ from 'jquery'
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+
 
 export default function Testimonial() {
+
+
+// Testimonials carousel
+const owlOptions = {
+  autoplay: true,
+  smartSpeed: 1000,
+  center: true,
+  dots: false,
+  loop: true,
+  nav: true,
+  navText: [
+    '<i class="bi bi-arrow-left"></i>',
+    '<i class="bi bi-arrow-right"></i>',
+  ],
+  responsive: {
+    0: {
+      items: 1,
+    },
+    768: {
+      items: 2,
+    },
+  },
+};
+
+
+    // Custom styles for the images
+    const imageStyles = {
+      width: '100%', // Adjust the width as needed
+      height: 'auto', // Maintain aspect ratio
+      borderRadius: '50%', // Optional: Add border-radius for rounded images
+      margin: 'auto', // Center the image horizontally
+      marginBottom: '5px', // Adjust the margin as needed
+    };
+
+
+
   return (
     <div className="container-xxl py-5">
     <div className="container">
@@ -8,10 +49,26 @@ export default function Testimonial() {
         <h6 className="text-primary">Testimonial</h6>
         <h1 className="mb-4">What Our Clients Say!</h1>
       </div>
-      <div className="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+      {/* <div className="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s"> */}
+      <div className="wow fadeInUp" data-wow-delay="0.1s">
+      <OwlCarousel className="testimonial-carousel" {...owlOptions}>
         <div className="testimonial-item text-center">
           <div className="testimonial-img position-relative">
-            <img className="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-1.jpg" />
+            <img style={{ ...imageStyles, margin: 'auto', marginBottom: '5px' }} src="img/client1.jpg" />
+            <div className="btn-square bg-primary rounded-circle">
+              <i className="fa fa-quote-left text-white" />
+            </div>
+          </div>
+          <div className="testimonial-text text-center rounded p-4">
+            <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
+            <h5 className="mb-1">Client Name</h5>
+            <span className="fst-italic">Profession</span>
+          </div>
+          
+        </div>
+        <div className="testimonial-item text-center">
+          <div className="testimonial-img position-relative">
+            <img  src="img/client2.jpg" style={{ ...imageStyles, margin: 'auto', marginBottom: '5px' }} />
             <div className="btn-square bg-primary rounded-circle">
               <i className="fa fa-quote-left text-white" />
             </div>
@@ -24,7 +81,8 @@ export default function Testimonial() {
         </div>
         <div className="testimonial-item text-center">
           <div className="testimonial-img position-relative">
-            <img className="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg" />
+            {/* <img className="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-3.jpg" /> */}
+            <img style={{ ...imageStyles, margin: 'auto', marginBottom: '5px' }} src="img/client3.jpg" />
             <div className="btn-square bg-primary rounded-circle">
               <i className="fa fa-quote-left text-white" />
             </div>
@@ -35,19 +93,7 @@ export default function Testimonial() {
             <span className="fst-italic">Profession</span>
           </div>
         </div>
-        <div className="testimonial-item text-center">
-          <div className="testimonial-img position-relative">
-            <img className="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-3.jpg" />
-            <div className="btn-square bg-primary rounded-circle">
-              <i className="fa fa-quote-left text-white" />
-            </div>
-          </div>
-          <div className="testimonial-text text-center rounded p-4">
-            <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-            <h5 className="mb-1">Client Name</h5>
-            <span className="fst-italic">Profession</span>
-          </div>
-        </div>
+        </OwlCarousel>
       </div>
     </div>
   </div>

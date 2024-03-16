@@ -1,5 +1,6 @@
 (function ($) {
     "use strict";
+    console.log('in jquery')
 
     // Spinner
     var spinner = function () {

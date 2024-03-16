@@ -5,6 +5,8 @@ import AboutPage from './AboutPage';
 import ServicePage from './ServicePage';
 import ProjectPage from './ProjectPage';
 import ContactPage from './ContactPage';
+import SignUpPage from './SignUpPage';
+import LoginPage from './LoginPage';
 
 
 
@@ -20,6 +22,8 @@ function App() {
           <Route path="/service" element={<ServicePage/>}></Route> 
           <Route path="/project" element={<ProjectPage/>}></Route> 
           <Route path="/contact" element={<ContactPage/>}></Route> 
+          {/* <Route path="/login" element={<LoginPage/>}></Route>  */}
+          {/* <Route path="/signup" element={<SignUpPage/>}></Route>  */}
 
   
         </Routes>
